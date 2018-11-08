@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RPS</title>
+    
+    <link rel="stylesheet" href="css/bootstrap.css">
+</head>
+<body>
+    
+    
+<!------------------------------------------------------------------------------------MENU------------------------------------------------------------------->    
+    
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" style="color: #fff;" href="#">Irving App</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse " id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto" style="margin: 0 50px">
+      <li class="nav-item inactive">
+        <a class="nav-link" style="color: #fff" href="students.html">Students </a>
+      </li>
+      <li class="nav-item inactive">
+        <a class="nav-link" style="color: #fff" href="teachers.html">Teachers</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" style="color: #fff" href="rps.html">RPS</a>
+      </li>
+      
+    </ul>
+   
+  </div>
+</nav>
+   
+   
+<!------------------------------------------------------------------------contenido------------------------------------------------------------->
+   
+   <div class="container mt-4" style="text-align: center">
+      
+      <div class="row">
+      
+      <div class="col-md-12">
+       
+       
+       <h1>Juega piedra papel o tijera</h1>
+       
+       
+   </div>
+   
+   
+   
+   </div>
+   </div>
+    
+    
+       
+   <div class="container mt-5" style="text-align: center">
+      
+      <div class="row">
+      
+      <div class="col-md-4">
+       
+       <button class="btn btn-primary btn-lg" onclick="usuario('0');" id="piedra" style="padding: 20px;">PIEDRA</button>
+       
+       
+       
+   </div>
+   
+    <div class="col-md-4">
+       
+       <button class="btn btn-primary btn-lg" onclick="usuario('1');" id="papel" style="padding: 20px;">PAPEL</button>
+       
+       
+       
+   </div>
+   
+    <div class="col-md-4">
+       
+       <button class="btn btn-primary btn-lg" onclick="usuario('2');" id="tijera" style="padding: 20px;">TIJERA</button>
+       
+       
+       
+   </div>
+   
+   
+   
+   </div>
+   </div>
+    
+    <div id="efecto" style="display:none" onclick="quitarEfecto();"></div>
+    
+<!-------------------------------------------------------------------------js---------------------------------------------------------------------->
+
+<script src="js/script.js"></script>    
+<script src="js/bootstrap.min.js"></script>        
+</body>
+</html>
